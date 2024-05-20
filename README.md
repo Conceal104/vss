@@ -13,6 +13,6 @@
 - 画像ファイルのパスを引数として、generate_share.pyを実行
 
 ## 使用例
-'''
+```
 python ./generate_share.py ./example/input.jpg
-'''
+```
