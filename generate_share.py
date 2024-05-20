@@ -50,9 +50,6 @@ try:
 except:
     print("Error: Can't input file")
     exit(1)
-pixels = original.size
-print(height, width)
-print(pixels)
 
 #シェア画像のサイズは元の縦横2倍
 size = (height*2, width*2)
