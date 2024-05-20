@@ -73,7 +73,9 @@ cv2.imwrite('share1.jpg', share1)
 cv2.imwrite('share2.jpg', share2)
 
 result = (share1 + share2) % 255
+"""
 cv2.imshow('result', result)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+"""
 cv2.imwrite('result.jpg', result)
